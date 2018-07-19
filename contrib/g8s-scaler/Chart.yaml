@@ -1,0 +1,4 @@
+apiVersion: v1
+description: A Helm chart custom metric scaling of g8s
+name: g8s-scaler
+version: 0.0.1

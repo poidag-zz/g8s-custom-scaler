@@ -1,0 +1,12 @@
+scalerEnabled: false
+scaler:
+  frequency: "*/10 * * * *"
+  image: quay.io/pickledrick/g8s-scaler
+  tag: latest
+  config:
+    token: token
+    cluster: cluster
+    fetch_url: http://url
+    fetch_path: /metrics
+    fetch_metric: required_nodes
+    g8s_api: https://api/v4/clusters/
