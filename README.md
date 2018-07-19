@@ -3,7 +3,7 @@
 This is a basic Kubernetes Cronjob that scrapes a prometheus metric indicating required number of nodes for the cluster
 and reconciles this against the [Giantswarm](https://giantswarm.io) API.
 
-## INSTALLATION;
+## Installation
 
 ```console
 $ helm install contrib/g8s-scaler
