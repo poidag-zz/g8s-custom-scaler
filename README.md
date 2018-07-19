@@ -14,7 +14,7 @@ $ helm install contrib/g8s-scaler
 | Parameter                    | Description                                     | Default                        |
 | ---------------------------- | ----------------------------------------------- | ------------------------------ |
 | `scalerEnabled`              | to enable or disable the scaler                 | false                          |
-| `scaler.frequency`           | frequeny (cron syntax) the scaler should scrape | "_/10 _ \* \* \*"              |
+| `scaler.frequency`           | frequeny (cron syntax) the scaler should scrape | `*/10 * * * *`                 |
 | `scaler.image`               | docker image                                    | quay.io/pickledrick/g8s-scaler |
 | `scaler.tag`                 | docker image tag                                | latest                         |
 | `scaler.config.token`        | Giantswarm API token                            | token                          |
